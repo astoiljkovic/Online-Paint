@@ -1,0 +1,70 @@
+body{
+			background-image: url(patern.png);
+		}
+
+		#alatke{
+			float: left;
+			width: 167px;
+			margin-right: 5px;
+			background-color: white;
+		}
+		#olovka{
+			float: left;
+			border: thin solid black;
+		}
+		#gumica{
+			float: left;
+			border: thin solid black;
+		}
+		
+		#cvs{
+			border: solid thin black;
+			background-color: white;
+		}
+		button{
+			width: 55px;
+			height: 50px;
+			border: thin solid black;
+		}
+		
+		button#brisac{
+			position: relative;
+			width: 165px;
+			height: 60px;
+			border: thin solid black;
+		}
+
+
+		.black1{
+			background-color: black; 
+			float: left;
+		}
+
+		.red1{
+			background-color: red; 
+			float: left;
+		}
+
+		.blue1{
+			background-color: blue; 
+			float: left;
+		}
+		.yellow1{
+			background-color: yellow; 
+			float: left;
+		}
+		.orange1{
+			background-color: orange; 
+			float: left;
+		}
+		.purple1{
+			background-color: purple; 
+			float: left;
+		}
+		
+		.saStrane{
+			width:80.6px;
+			height:79px;
+			float: left;
+			border:thin solid black;
+		}

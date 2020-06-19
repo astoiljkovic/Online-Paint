@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Paint</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/javascript">
+		<link rel="stylesheet" href="paint.css">
+</head>
+<body>
+	<script src = "paint.js"></script>
+	<div id="alatke">
+		<img src="olovka.png" class="saStrane" onclick="pisi();" id="olovka"/>
+		<img src="gumica.png" class="saStrane" onclick="brisi();" id="gumica"/>
+
+		<button class="black1" onclick="black();"></button>
+		<button class="red1" onclick="red();"></button>
+		<button class="blue1" onclick="blue();" ></button>
+		<button class="yellow1" onclick="yellow();"></button>
+		<button class="orange1" onclick="orange();"></button>
+		<button class="purple1" onclick="purple();"></button>
+		
+		<img id="slika1" src="1.png" class="saStrane" onclick="slika1();"/>
+		<img id="slika2" src="2.png" class="saStrane" onclick="slika2();"/>
+		<img id="slika3" src="3.png" class="saStrane" onclick="slika3();"/>
+		<img id="slika4" src="4.png" class="saStrane" onclick="slika4();"/>
+
+		<img src="k1.png" class="saStrane" onclick="kv();"/>
+		<img src="k2.png" class="saStrane" onclick="pravougaonik();"/>
+		<img src="k3.png" class="saStrane" onclick="krug();"/>
+		<img src="k4.png" class="saStrane" onclick="tekst();"/>
+
+		<button id="brisac" onclick="ocisti();">OČISTI</button>
+	</div>
+	<canvas id="cvs" width="900px" height="563px" onmousemove="pozicija(event);" onclick="main();"></canvas>
+
+
+
+</body>
+</html>
